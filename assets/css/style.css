@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Chewy", cursive;
+}
+.ff-Balsamiq {
+  font-family: "Balsamiq Sans", cursive;
+}
+body {
+  background-color: var(--yellow);
+}
+/*ROOTS=======================VARIABLES============================START*/
+:root {
+  /*FONT===SIZES*/
+  --font-sm: 16px;
+  --font-md: 22px;
+  --font-lg: 24px;
+  --font-xl: 36px;
+  --font-xxl: 48px;
+  /*COLORS*/
+  --black: #000000;
+  --sky: #94e1ff;
+  --yellow: #f4ec87;
+  --pitch: #f7ad9c;
+  --parrot: #acf07a;
+}
+/*MEDIA=====================QUERY=====================CLASSES=====================START*/
+@media (max-width: 1399.98px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 22px;
+    --font-lg: 24px;
+    --font-xl: 32px;
+    --font-xxl: 45px;
+  }
+}
+@media (max-width: 1199.98px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 21px;
+    --font-lg: 22px;
+    --font-xl: 30px;
+    --font-xxl: 40px;
+  }
+}
+@media (max-width: 991.98px) {
+  :root {
+    --font-sm: 16px;
+    --font-md: 21px;
+    --font-lg: 22px;
+    --font-xl: 28px;
+    --font-xxl: 35px;
+  }
+}
+@media (max-width: 767.98px) {
+  :root {
+    --font-sm: 15px;
+    --font-md: 19px;
+    --font-lg: 20px;
+    --font-xl: 25px;
+    --font-xxl: 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  :root {
+    --font-sm: 15px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 22px;
+    --font-xxl: 25px;
+  }
+}
+/*MEDIA=====================QUERY=====================CLASSES=====================END*/
+/*FONT=====================SIZES====================CLASSES=====================START*/
+.font-sm {
+  font-size: var(--font--sm) !important;
+}
+.font-md {
+  font-size: var(--font-md) !important;
+}
+.font-lg {
+  font-size: var(--font-lg) !important;
+}
+.font-xl {
+  font-size: var(--font-xl) !important;
+}
+.font-xxl {
+  font-size: var(--font-xxl) !important;
+}
+/*FONT=====================SIZES====================CLASSES=====================END*/
+/*FONT=====================WEIGHT=====================CLASSES====================START*/
+.fw-normal {
+  font-weight: normal !important;
+}
+.fw-bold {
+  font-weight: 700 !important;
+}
+/*FONT=====================WEIGHT=====================CLASSES====================END*/
+/*COLORS====================CLASSES=========================START*/
+.black {
+  color: var(--black) !important;
+}
+.yellow {
+  color: var(--yellow) !important;
+}
+.sky {
+  color: var(--sky) !important;
+}
+.parrot {
+  color: var(--parrot) !important;
+}
+.pitch {
+  color: var(--pitch) !important;
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.bg_roadmap {
+  background-color: #b0bdfe;
+}
+/*COLORS====================CLASSES=========================END*/
+/*COMMON===================CLASSES=====================START*/
+
+.main_heading {
+  font-size: var(--font-xxl);
+  font-weight: 400 !important;
+}
+.heading {
+  font-size: var(--font-xl);
+  font-weight: 400 !important;
+}
+p {
+  font-size: var(--font--sm);
+  font-weight: 400 !important;
+  color: white;
+}
+.bg_img {
+  background-image: url(../image/png/roadmap_bg_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.m_w {
+  max-width: 532px;
+}
+.m_w_65 {
+  max-width: 65%;
+}
+
+.roadmap_img {
+  top: 13%;
+  right: 30%;
+}
